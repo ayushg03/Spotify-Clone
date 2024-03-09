@@ -1,0 +1,52 @@
+.container {
+   position: relative;
+ }
+ 
+ .box1 {
+   position: fixed;
+   background-color: black;
+   height: 80px;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1000; /* Ensure header appears above other content */
+ }
+ 
+ .box2 {
+   padding-top: 80px; /* Adjust based on the height of your header */
+   width: 90%;
+   margin-left: 5%;
+   margin-right: 5%; 
+
+ }
+.box3 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 15px !important;
+}
+.gridContainer{
+   gap: 10px;
+}
+.text{
+   font-size: 40px !important;
+   color: white;
+   font-weight: 600 !important;
+}
+.toggle{
+   color: white !important;
+   border: 2px solid white !important;
+   border-radius: 25px !important;
+}
+.loadMoreContainer{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+.loadMoreButton {
+   background-color: #3fbd64 !important;
+   color: white !important;
+   font-size: 20px !important; 
+ }

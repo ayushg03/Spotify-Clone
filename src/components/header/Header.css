@@ -1,0 +1,115 @@
+.box-main {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 20px;
+margin-left: 5%;
+margin-right: 5%;
+}
+.box-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+}
+.box-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+}
+.box-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 15px;
+}
+.up-down{
+    transform: rotate(90deg);
+    color: white !important;
+    margin-left: -15px !important;
+}
+.searchBox {
+    position: relative;
+    background-color: rgb(41, 41, 41);
+    border-radius: 30px;
+    width: 60%;
+    height: fit-content;
+}
+
+.searchBox .MuiOutlinedInput-root {
+    border-radius: 30px;
+    border: none; /* Remove default border */
+    outline: none;
+    transition: border-color 0.3s ease-in-out; /* Add transition for smooth effect */
+    height: 50px;
+}
+
+
+.searchBox .MuiOutlinedInput-root:focus-within {
+    border: 2px solid white !important; 
+    outline: none !important;
+    outline-color: white;
+    box-shadow: none !important; 
+}
+
+
+.searchBox .MuiOutlinedInput-root fieldset {
+    border-right: none;
+    border: none;
+}
+
+.searchBox .MuiOutlinedInput-input {
+    color: white;
+  
+    font-family: Arial, sans-serif; /* Change font family as needed */
+}
+
+.searchBox .MuiInputLabel-root {
+    color: white;
+    font-family: Arial, sans-serif; /* Change font family as needed */
+}
+
+.searchBox .MuiFormLabel-root.Mui-focused {
+    color: white; /* Change focused label color as needed */ 
+}
+
+.searchBox .MuiInputAdornment-root {
+    color: white;
+}
+
+/* Placeholder styling */
+.searchBox .MuiFormLabel-root {
+    color: white; /* Placeholder text color */
+    font-family: Arial, sans-serif; /* Placeholder font family */
+}
+
+.searchBox .MuiInputBase-input::placeholder {
+    color: white; /* Placeholder text color */
+    font-family: Arial, sans-serif; /* Placeholder font family */
+}
+.notify{
+    color: grey;
+    font-size: 28px !important;
+    margin-right: 15px;
+}
+.avatar {
+    background-color: #3fbd64 !important;
+    color: black !important;
+    font-weight: 600;
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 15px !important;
+}
+.filter-btn{
+    background-color: #3fbd64 !important;
+    color: white !important;
+    font-size: 25px;
+}
+.chkbox{
+  color: black !important; 
+}
+.MuiInputBase-root.Mui-focused::after {
+    border-bottom: none !important;
+  }
